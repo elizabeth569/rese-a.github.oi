@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Receta de Lasaña 🌸</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <main id="tarjeta">
+      <!-- Receta de Lasaña -->
+      <div class="receta-item">
+        <img
+          src="img/lasaña.jpeg"
+          alt="Lasaña"
+          onclick="mostrarReceta('info-0')"
+        />
+        <div id="info-0" class="info-receta">
+          <div class="receta-contenido">
+            <div class="contenido-dividido">
+              <div class="receta-texto">
+                <h1>Lasaña Italiana Tradicional</h1>
+
+                <h3>🍅 Descripción:</h3>
+                <p>
+                  Una deliciosa lasaña casera con capas de pasta, carne molida,
+                  salsa de tomate y una mezcla cremosa de queso mozzarella y
+                  parmesano. Perfecta para disfrutar en familia.
+                </p>
+
+                <h3>🥣 Ingredientes:</h3>
+                <ul>
+                  <li>12 láminas de pasta para lasaña</li>
+                  <li>500 g de carne molida de res</li>
+                  <li>1 cebolla picada</li>
+                  <li>2 dientes de ajo</li>
+                  <li>400 g de salsa de tomate</li>
+                  <li>200 g de queso mozzarella rallado</li>
+                  <li>100 g de queso parmesano</li>
+                  <li>250 g de ricotta o requesón</li>
+                  <li>Sal, pimienta y orégano al gusto</li>
+                  <li>Aceite de oliva</li>
+                </ul>
+
+                <h3>🔥 Preparación:</h3>
+                <ol>
+                  <li>
+                    Cocina las láminas de lasaña según las instrucciones del
+                    paquete.
+                  </li>
+                  <li>
+                    En una sartén, sofríe la cebolla y el ajo con aceite de
+                    oliva. Agrega la carne y cocina hasta dorar.
+                  </li>
+                  <li>
+                    Añade la salsa de tomate, sal, pimienta y orégano. Cocina
+                    por 10 minutos.
+                  </li>
+                  <li>
+                    En un molde, coloca una capa de pasta, una de carne, una de
+                    ricotta y espolvorea queso. Repite hasta llenar el molde.
+                  </li>
+                  <li>
+                    Termina con una capa de queso mozzarella y parmesano.
+                  </li>
+                  <li>Hornea a 180°C por 25-30 minutos hasta gratinar.</li>
+                </ol>
+
+                <h3>⏱ Tiempo total:</h3>
+                <p><strong>45 minutos</strong></p>
+              </div>
+
+              <div class="receta-imagen">
+                <img src="img/lasaña.jpeg" alt="Lasaña recién horneada" />
+              </div>
+            </div>
+            <button class="boton-cerrar" onclick="cerrarReceta('info-0')">
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="ejecucion.js"></script>
+  </body>
+</html>
